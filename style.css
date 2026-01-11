@@ -174,10 +174,12 @@ footer {
   overflow: hidden;
   box-shadow: 0 15px 40px rgba(0,0,0,0.08);
   transition: transform 0.3s;
+  
 }
 
 .project-card:hover {
   transform: translateY(-8px);
+  cursor: pointer;
 }
 
 .project-card img {
@@ -200,4 +202,24 @@ footer {
 .project-info p {
   font-size: 14px;
   color: #6b7280;
+}
+
+.live-demo-btn {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 22px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #f59e0b, #f97316);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(249, 115, 22, 0.35);
+    transition: all 0.3s ease;
+}
+
+.live-demo-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(249, 115, 22, 0.45);
+    background: linear-gradient(135deg, #f97316, #ea580c);
 }
